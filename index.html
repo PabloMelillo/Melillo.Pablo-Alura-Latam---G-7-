@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador de Texto - Alura G7</title>
+
+    <!-- Encabezado -->
+    <header>
+        <a href="https://www.aluracursos.com/">
+            <img src="./img/Logo.svg" alt="Logo Alura" class="logo">
+        </a>    
+    </header>
+<body>
+    
+    <!-- Principal -->
+    <main>
+        <section class="home">
+            <textarea class="tex__area" placeholder="Ingrese el texto aqui" cols="30" rows="10"></textarea>
+            <div class="parametro">
+                <h6 class="parametro__palabras">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="botones__encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="botones__desencriptar" onclick="btndesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="tex__area__respuesta" placeholder="Ningún mensaje fue encontrado" cols="20" rows="10" id="texarea"></textarea>
+            <div>
+                <button class="boton__copiar" id="botonCopiar">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+    <!-- Pie de Página -->
+
+    <footer>
+
+        <div class="pie-de-pagina">
+            <p class="copyright">&copy; copyright 2024 - Encriptador de Texto - desarrollado por Pablo Gustavo Melillo</p>
+            <a href="https://www.linkedin.com/in/pgmelillo/">
+                <img src="./img/linkedin.svg" alt="Logo Linkedin" class="linked">
+            </a>
+            <a href="https://github.com/PabloMelillo">
+                <img src="./img/github.svg" alt="Logo Github" class="git">
+            </a>
+            </div>
+        </footer>
+    
+        <script src="index.js"></script>
+
+
+</html>

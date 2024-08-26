@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    
+    background: #F3F5FC;
+  
+   
+}
+
+.body{
+
+  margin: 0;
+  min-height: 100vh;
+}
+
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 11%;
+}
+
+.tex__area{
+    display: flex;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+.tex__area__respuesta{
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.tex__area__respuesta:focus{
+    outline: none;
+}
+
+::placeholder {color: #0A3871;}
+    .tex__area:focus {
+    outline: none;
+}
+
+.pametro{
+    display: flex;
+}
+
+.parametro__palabras{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+
+}
+
+.botones__encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #FFFFFF;
+    height: 67px;
+    width: 328px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: auto;
+}
+
+.botones__desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #0A3871;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: auto;
+    
+}
+
+.tex__area__respuesta{
+    display: flex;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.boton__copiar{
+
+    
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 326px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: auto;
+    
+}
